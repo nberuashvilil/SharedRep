@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: inline-block;
+}
+.container {
+	
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+.first-Photo{
+
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 510px;
+}
+.third-Photo{
+
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 803px;
+    margin-top: 60px;
+    margin-right: 510px;
+}
+.second-photo{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -350px;
+}
+p{
+    height: 65px;
+    font-size: 18px;
+    color: black;
+    width: 339px;
+     font-family: 'ALK Rounded Nusx Med';
+   
+}
+div{
+    display: inline-block;
+}
+section .container{
+    margin-top: 20px;
+}
+.relative img,
+.image-box img {
+	width: 100%;
+}
+.relative,
+.image-box {
+	position: relative;
+    border-radius: 15px;
+}
+.absolute {
+	position: absolute;
+	bottom: 360px;
+	background-color: whitesmoke;
+    height: 80px;
+    width: 320px;
+    margin-left: 80px;
+    border-radius: 12px;
+    padding-left: 10px;
+    
+}
+.absolute1 {
+	position: absolute;
+	bottom: 5px;
+	background-color: whitesmoke;
+    height: 80px;
+    width: 320px;
+    margin-left: 802px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.absolute2{
+    position: absolute;
+	bottom: -50px;
+	background-color: whitesmoke;
+    height: 80px;
+    width: 336px;
+    margin-left: 432px;
+    border-radius: 12px;
+    padding-left: 10px;
+
+}
+.first-Div{
+    margin-left: auto;
+    margin-top: auto;
+}
