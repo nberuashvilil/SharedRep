@@ -3,17 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    display: inline-block;
+a{
+    text-decoration: none;
 }
-.container {
-	
+ul,
+ol{
+    list-style: none;
+}
+
+header{
+	width: 1920px;
+	height: 387.56px;
+	background: #1a2886
+}
+header nav li{
+	display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+
+}
+header nav a{	
+	color: #FFFFFF;
+}
+.nav-contact{
+	background-color: #FFFFFF;
+	border-radius: 28px;
+	width: 160px;
+    height: 55px;
+}
+.nav-contact a{
+	font: normal normal bold 16px/19px Helvetica Neue;
+	color: #171717;
+}
+
+
+
+/* projects */
+
+header{
+    background-color: blue;
+
+}
+header ul li{
+    color: #FFFFFF;
+    margin-left: 240px;
+}
+
+
+
+/* p{
+    height: 65px;
+    font-size: 18px;
+    color: black;
+    width: 339px;
+     font-family: 'ALK Rounded Nusx Med';  
+} */
+
+/* section{
+    display: inline-block;
+} */
+
+/* .container {
+    display: inline-block;
 	max-width: 1920px;
 	width: 100%;
 	margin: 0 auto;
-}
-.first-Photo{
+} */
 
+/* .first-Photo{
+    width: 463px;
+    height: 420px;
+    border-radius: 15px;
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
@@ -21,9 +81,9 @@ section{
     margin-left: 80px;
     margin-top: 60px;
     margin-right: 510px;
-}
-.third-Photo{
+} */
 
+/* .third-Photo{
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
@@ -31,71 +91,67 @@ section{
     margin-left: 803px;
     margin-top: 60px;
     margin-right: 510px;
-}
-.second-photo{
+} */
+
+/* .second-photo{
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 768px;
     margin-top: -350px;
-}
-p{
-    height: 65px;
-    font-size: 18px;
-    color: black;
-    width: 339px;
-     font-family: 'ALK Rounded Nusx Med';
-   
-}
-div{
+} */
+
+
+/* div{
     display: inline-block;
-}
-section .container{
+} */
+/* section .container{
     margin-top: 20px;
-}
-.relative img,
+} */
+/* .relative img,
 .image-box img {
 	width: 100%;
-}
-.relative,
+} */
+/* .relative,
 .image-box {
 	position: relative;
     border-radius: 15px;
+} */
+
+.div-sec div{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -200px;
 }
-.absolute {
+
+.absolute1{
 	position: absolute;
-	bottom: 360px;
 	background-color: whitesmoke;
-    height: 80px;
     width: 320px;
-    margin-left: 80px;
     border-radius: 12px;
-    padding-left: 10px;
-    
-}
-.absolute1 {
-	position: absolute;
-	bottom: 5px;
-	background-color: whitesmoke;
-    height: 80px;
-    width: 320px;
-    margin-left: 802px;
-    border-radius: 12px;
-    padding-left: 10px;
 }
 .absolute2{
+	position: absolute;
+	background-color: whitesmoke;
+    height: 80px;
+    width: 320px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.absolute3{
     position: absolute;
-	bottom: -50px;
+
 	background-color: whitesmoke;
     height: 80px;
     width: 336px;
-    margin-left: 432px;
+
     border-radius: 12px;
     padding-left: 10px;
 
 }
-.first-Div{
+
+/* .first-Div{
     margin-left: auto;
     margin-top: auto;
-}
+} */
